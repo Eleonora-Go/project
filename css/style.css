@@ -1,0 +1,231 @@
+body {
+    width: 1920px;
+    margin: 0 auto;
+}
+
+.head {
+    min-height: 1024px;
+    background-image: url(../img/11949.png);
+}
+
+.logo_menu {
+    display: flex;
+    margin: 0 0 0 376px;
+    padding-top: 40px;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 185px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.logo:hover {
+    color: silver;
+}
+
+.logo:active {
+    color: beige;
+}
+
+.logo_svg {
+    font-family: Raleway;
+    fill: currentColor;
+}
+
+.logo_txt {
+    font-family: Raleway;
+    font-size: 34px;
+}
+
+.menu {
+    margin: 0 0 0 219px;
+}
+
+.menu_list {
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 300;
+    color: #ffffff;
+    list-style-type: none;
+    float: left;
+    padding-left: 20px;
+}
+
+.menu-linc {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.menu-linc:hover {
+    color: #c7b299;
+}
+
+.carusel {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 700px;
+    margin: 200px 0 0 0;
+    position: relative;
+}
+
+.carusel_arrow {
+    display: block;
+    margin-bottom: 300px;
+}
+
+.scroll_arrow_l:hover {}
+
+.scroll_arrow_l {
+    margin: 0 400px 0 150px;
+    opacity: 0.5;
+}
+
+.scroll_arrow_r {
+    margin: 0 150px 0 400px;
+    opacity: 0.5;
+}
+
+.carusel_txt {
+    width: 588px;
+    min-height: 200px;
+    text-align: center;
+    margin-bottom: 300px;
+}
+
+.txt_design {
+    display: block;
+    font-family: Raleway;
+    font-size: 36px;
+    line-height: 1.2;
+    font-weight: 500;
+    color: #ffffff;
+    margin: 0 0 14px 0;
+}
+
+.txt_portfolio {
+    display: block;
+    font-family: Raleway;
+    font-size: 52px;
+    line-height: 1.2;
+    font-weight: 800;
+    color: #ffffff;
+    margin: 0 0 19px 0;
+}
+
+.txt_option {
+    display: block;
+    font-family: Montserrat;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 300;
+    color: #ffffff;
+    margin: 0 0 52px 0;
+}
+
+.txt_started {
+    font-family: Raleway;
+    font-size: 14px;
+    line-height: 47px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding-top: 10px;
+}
+
+.linc_started {
+    display: block;
+    margin: 0 auto;
+    width: 170px;
+    height: 53px;
+    background-color: #998675;
+    border-radius: 3.0px;
+    text-decoration: none;
+}
+
+.linc_started:hover {
+    background-color: #958000;
+}
+
+.carusel_pagination {
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    padding: 5px 0;
+    position: absolute;
+    bottom: 0;
+}
+
+.carusel-pagination-item {
+    display: block;
+    margin: 0 5px;
+    border-radius: 50%;
+    width: 11px;
+    height: 11px;
+    opacity: 0.5;
+    background-color: #ffffff;
+}
+
+
+/*---------------*/
+
+.section_application_menu {
+    display: flex;
+    width: 100%;
+    min-height: 373px;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.application_menu {
+    width: 300px;
+    height: 200px;
+}
+
+.application_menu:nth-child(2),
+.application_menu:nth-child(3),
+.application_menu:nth-child(4) {
+    margin-left: 33px;
+}
+
+.application_menu_svg {
+    display: flex;
+    margin: auto;
+}
+
+application_menu_svg:hover {
+    fill: #c7b299;
+}
+
+.application_menu_title {
+    font-family: Raleway;
+    font-size: 22px;
+    line-height: 1.2;
+    font-weight: 600;
+    color: #555555;
+    display: block;
+    text-align: center;
+    margin-top: 29px;
+}
+
+.application_menu_txt {
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 300;
+    color: #8c8c8c;
+    margin: 19px 0 0 0;
+    text-align: center;
+}
+
+.realization {
+    background-color: #fbfaf8;
+    min-height: 700px;
+}
